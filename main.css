@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    font-size: 100%;
+}
+
+.navbar{
+    background-color: #ED2525 !important;
+}
+
+.navbar-brand{
+    color: #221D1D;
+}
+
+.banner{
+    background-image: url("./assets/vipul-jha-a4X1cdC1QAc-unsplash.jpg");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    background-color: rgba(34, 29, 29, 0.705);
+    display: flex;
+    flex-direction: column;
+    border-color: #ffff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main-title-h1{
+    color:#ffff;
+    font-size: 1.5rem;
+}
+
+.main-title-h3{
+    color:#ffff;
+    font-size: 1rem;
 }
