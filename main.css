@@ -64,7 +64,7 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 1rem 1rem 1rem;
+    margin: 0 1rem 0 1rem;
     background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
     border-radius: 25px;
     padding: 0 0 1rem 0;
@@ -107,3 +107,62 @@ html{
     color: #ffff;
 }
 
+/* EXPERIENCE */
+
+.exp{
+    background-color: #221D1D;
+    padding: 1rem 0 0 0;
+}
+
+.exp_title{
+    color:#ED2525;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.exp_bg{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    margin: 0 1rem 1rem 1rem;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
+    border-radius: 25px;
+    padding: 0 0 1rem 0;
+}
+
+.exp_finnegans{
+    display: flex;
+    color: #ffff;
+}
+
+.exp_finnegans-logo{
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    border-radius: 1rem;
+    border-color: #ED2525;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.exp_finnegans-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.exp_finnegans-title{
+    font-size: 1.5rem;
+}
+
+.exp_finnegans-subtitle{
+    font-size: 1.2rem;
+}
+
+.exp_finnegans-desc{
+    text-align: justify;
+}
