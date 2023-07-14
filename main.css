@@ -51,3 +51,56 @@ html{
     color:#ffff;
     font-size: 1rem;
 }
+
+/*ABOUT ME*/
+.about-me{
+    background-color: #221D1D;
+}
+
+.about-me_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1rem 1rem 1rem;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
+    border-radius: 25px;
+    padding: 0 0 1rem 0;
+}
+
+.about-me_title{
+    color:#ED2525;
+    margin-top: 2rem;
+}
+
+.about-me_profile{
+    width: 11rem;
+    height: 11rem;
+    display: block;
+    border-radius: 50%;
+    border-color: #ED2525;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.about-me_info{
+    color: #ffff;
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+.about-me_skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color: #ffff;
+}
+
+.about-me_skill{
+    color: #eb0000;
+}
+
+.about-me_skill span{
+    color: #ffff;
+}
