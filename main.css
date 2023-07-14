@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
 
+/* MAIN STYLES */
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +13,7 @@ html{
     background-color: #221D1D;
 }
 
+/* NAVBAR*/
 .navbar{
     background-color: #ED2525 !important;
 }
@@ -104,3 +106,4 @@ html{
 .about-me_skill span{
     color: #ffff;
 }
+
