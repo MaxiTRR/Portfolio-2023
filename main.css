@@ -125,7 +125,7 @@ html{
     /*justify-content: center;*/
     /*align-items: center;*/
     /*flex-direction: column;*/
-    margin: 0 1rem 1rem 1rem;
+    margin: 0 1rem 0 1rem;
     background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
     border-radius: 25px;
     padding: 0 0 1rem 0;
@@ -164,5 +164,61 @@ html{
 }
 
 .exp_finnegans-desc{
+    text-align: justify;
+}
+
+/*EDUCATION*/
+
+.edu{
+    background-color: #221D1D;
+    padding: 1rem 0 0 0;
+}
+
+.edu_title{
+    color:#ED2525;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.edu_bg{
+    margin: 0 1rem 0 1rem;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
+    border-radius: 25px;
+    padding: 0 0 1rem 0;
+}
+
+.edu_argpro{
+    display: flex;
+    color: #ffff;
+}
+
+.edu_argpro-logo{
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    border-radius: 1rem;
+    border-color: #ED2525;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+.edu_argpro-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.edu_argpro-title{
+    font-size: 1.5rem;
+
+}
+
+.edu_argpro-subtitle{
+    font-size: 1.2rem;
+}
+
+.edu_argpro-desc{
     text-align: justify;
 }
