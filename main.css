@@ -212,7 +212,6 @@ html{
 
 .edu_argpro-title{
     font-size: 1.5rem;
-
 }
 
 .edu_argpro-subtitle{
@@ -221,4 +220,75 @@ html{
 
 .edu_argpro-desc{
     text-align: justify;
+}
+
+/*PROJECTS*/
+.proj{
+    background-color: #221D1D;
+    padding: 1rem 0 0 0;
+}
+
+.proj_title{
+    color:#ED2525;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.proj_bg{
+    margin: 0 1rem 0 1rem;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
+    border-radius: 25px;
+    padding: 0 0 1rem 0;
+}
+
+.proj_alura{
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj_alura-title{
+    font-size: 1.5rem;
+}
+
+.proj_alura-screen{
+    width: 20rem;
+    height: 10rem;
+    display: block;
+    border-radius: 1rem;
+    border-color: #ED2525;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.proj_alura-info{
+    text-align: justify;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.proj_alura-github{
+    color:#ED2525;
+    text-decoration: none;
+    margin: 1rem 0 0 0;
+}
+
+.proj_codo{
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj_codo-title{
+    font-size: 1.5rem;
+    margin: 2rem 0 0 0;
+}
+
+.proj_codo-info{
+    text-align: justify;
+    margin: 1rem 1rem 0 1rem;
 }
