@@ -292,3 +292,110 @@ html{
     text-align: justify;
     margin: 1rem 1rem 0 1rem;
 }
+
+/*CURSOS*/
+
+.course{
+    background-color: #221D1D;
+    padding: 1rem 0 0 0;
+}
+
+.course_bg{
+    margin: 0 1rem 0 1rem;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
+    border-radius: 25px;
+    padding: 0 0 1rem 0;
+}
+
+.course_title{
+    color:#ED2525;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.course_udemyCss{
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_udemyCss-logo{
+    width: 8rem;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.course_udemyCss-info{
+    text-align: justify;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.course_udemyCss-title{
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.course_udemyCss-link{
+    text-decoration: none;
+    color: #ED2525;
+}
+
+.course_EF{
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.course_EF-logo{
+    width: 8rem;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.course_EF-info{
+    text-align: justify;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.course_EF-title{
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.course_EF-link{
+    text-decoration: none;
+    color: #ED2525;
+}
+
+.course_OPBoot{
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.course_OPBoot-logo{
+    width: 8rem;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.course_OPBoot-info{
+    text-align: justify;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.course_OPBoot-title{
+    text-align: start;
+    font-size: 1.5rem;
+}
