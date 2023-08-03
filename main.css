@@ -11,6 +11,13 @@
 html{
     font-size: 100%;
     background-color: #221D1D;
+    scroll-behavior: smooth;
+}
+
+h1{
+    color:#ED2525;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 /* NAVBAR*/
@@ -70,11 +77,6 @@ html{
     padding: 0 0 1rem 0;
 }
 
-.about-me_title{
-    color:#ED2525;
-    margin-top: 2rem;
-}
-
 .about-me_profile{
     width: 11rem;
     height: 11rem;
@@ -115,19 +117,11 @@ html{
 
 .tech_bg{
     display: flex;
-    /*margin: 0 1rem 0 1rem;*/
-    /*background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);*/
     border-radius: 25px;
     padding: 0 0 1rem 0;
     flex-flow: wrap;
     justify-content: center;
     gap:2rem;
-}
-
-.tech_title{
-    color:#ED2525;
-    margin-top: 2rem;
-    text-align: center;
 }
 
 .tech_icon{
@@ -137,7 +131,6 @@ html{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    /*padding: 0 1rem 0 1rem;*/
 }
 
 .tech_icon span{
@@ -145,23 +138,13 @@ html{
 }
 
 /* EXPERIENCE */
-
 .exp{
     background-color: #221D1D;
     padding: 1rem 0 0 0;
 }
 
-.exp_title{
-    color:#ED2525;
-    margin-top: 2rem;
-    text-align: center;
-}
-
 .exp_bg{
     display: flex;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex-direction: column;*/
     margin: 0 1rem 0 1rem;
     background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
     border-radius: 25px;
@@ -205,16 +188,9 @@ html{
 }
 
 /*EDUCATION*/
-
 .edu{
     background-color: #221D1D;
     padding: 1rem 0 0 0;
-}
-
-.edu_title{
-    color:#ED2525;
-    margin-top: 2rem;
-    text-align: center;
 }
 
 .edu_bg{
@@ -263,12 +239,6 @@ html{
 .proj{
     background-color: #221D1D;
     padding: 1rem 0 0 0;
-}
-
-.proj_title{
-    color:#ED2525;
-    margin-top: 2rem;
-    text-align: center;
 }
 
 .proj_bg{
@@ -331,7 +301,6 @@ html{
 }
 
 /*CURSOS*/
-
 .course{
     background-color: #221D1D;
     padding: 1rem 0 0 0;
@@ -342,12 +311,6 @@ html{
     background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);
     border-radius: 25px;
     padding: 0 0 1rem 0;
-}
-
-.course_title{
-    color:#ED2525;
-    margin-top: 2rem;
-    text-align: center;
 }
 
 .course_udemyCss{
@@ -438,7 +401,6 @@ html{
 }
 
 /*SOCIAL LINKS*/
-
 .social_links{
     background-color: #221D1D;
     padding: 1rem 0 0 0;
@@ -465,7 +427,6 @@ html{
 }
 
 /*FOOTER*/
-
 .foot{
     background-color: #221D1D;
     text-align: center;
