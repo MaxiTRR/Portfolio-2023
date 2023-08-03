@@ -107,6 +107,43 @@ html{
     color: #ffff;
 }
 
+/*TECHNOLOGIES*/
+.tech{
+    background-color: #221D1D;
+    padding: 1rem 0 0 0;
+}
+
+.tech_bg{
+    display: flex;
+    /*margin: 0 1rem 0 1rem;*/
+    /*background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);*/
+    border-radius: 25px;
+    padding: 0 0 1rem 0;
+    flex-flow: wrap;
+    justify-content: center;
+    gap:2rem;
+}
+
+.tech_title{
+    color:#ED2525;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.tech_icon{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /*padding: 0 1rem 0 1rem;*/
+}
+
+.tech_icon span{
+    font-size: 0.8rem;
+}
+
 /* EXPERIENCE */
 
 .exp{
