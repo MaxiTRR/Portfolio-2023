@@ -426,3 +426,15 @@ html{
     width: 5rem;
     height: auto;
 }
+
+/*FOOTER*/
+
+.foot{
+    background-color: #221D1D;
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+.foot_copyright{
+    color:#eb0000;
+}
