@@ -9,8 +9,8 @@
 }
 
 :root{
-    --bg-color-dark: #221D1D;
-    --font-color-primary: #ffff;
+    --bg-color-dark: #f0e1e1;
+    --font-color-primary: #241c1c;
     --font-color-secondary:#ED2525;
 }
 
@@ -22,7 +22,7 @@ html{
 
 body{
     padding: 56px 0 0 0;
-    background-color: var(--bg-color-dark);
+    background-color: var(--bg-color-dark)
 }
 
 h1{
@@ -58,15 +58,15 @@ section{
 
 .btn_mode{ 
     border-style: none; 
-    padding: 0.5rem;
-    color: #000000;
-    background-color: #ffffff00;
+    padding: 0.5rem; 
+    color: #fff; 
+    background-color: #221d1d00;
     font-size: 2rem;
     transition: all 0.5s ease;
 }
 
 .btn_mode:hover{
-    color: #ffff;
+    color: #000000;
 }
 
 .banner{
@@ -93,12 +93,12 @@ section{
 }
 
 .main-title-h1{
-    color:var(--font-color-primary);
+    color:#fff;
     font-size: 1.5rem;
 }
 
 .main-title-h3{
-    color:var(--font-color-primary);
+    color:#ffff;
     font-size: 1rem;
 }
 
@@ -411,7 +411,6 @@ section{
 
 /*FOOTER*/
 .foot{
-    /*background-color: #221D1D;*/
     text-align: center;
     padding: 2rem 0 0 0;
 }
