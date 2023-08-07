@@ -115,6 +115,14 @@ section{
     color: #ffff;
 }
 
+.about-me_cvBtn{
+    padding: 1rem;
+    color: #ffff;
+    background-color: #ED2525;
+    border-radius: 25px;
+    border-style: none;
+}
+
 /*TECHNOLOGIES*/
 .tech_icons{
     display: flex;
