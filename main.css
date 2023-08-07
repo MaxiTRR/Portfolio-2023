@@ -14,6 +14,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    padding: 56px 0 0 0;
+}
+
 h1{
     color:#ED2525;
     margin-top: 2rem;
@@ -52,6 +56,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 .main-title{
