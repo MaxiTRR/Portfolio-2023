@@ -12,6 +12,8 @@
     --bg-color-dark: #221D1D;
     --font-color-primary: #ffff;
     --font-color-secondary:#ED2525;
+    --bg-main-title: rgba(34, 29, 29, 0.705);
+    --font-color-main-title:#ffff;
 }
 
 html{
@@ -49,7 +51,7 @@ section{
 
 /* NAVBAR*/
 .navbar{
-    background-color: #ED2525 !important;
+    background-color: var(--font-color-secondary) !important;
 }
 
 .navbar-brand{
@@ -59,14 +61,14 @@ section{
 .btn_mode{ 
     border-style: none; 
     padding: 0.5rem;
-    color: #000000;
+    color: var(--bg-color-dark);
     background-color: #ffffff00;
     font-size: 2rem;
     transition: all 0.5s ease;
 }
 
 .btn_mode:hover{
-    color: #ffff;
+    color: var(--font-color-primary);
 }
 
 .banner{
@@ -80,10 +82,10 @@ section{
 }
 
 .main-title{
-    background-color: rgba(34, 29, 29, 0.705);
+    background-color: var(--bg-main-title);
     display: flex;
     flex-direction: column;
-    border-color: #ffff;
+    border-color: var(--font-color-main-title);
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
@@ -93,12 +95,12 @@ section{
 }
 
 .main-title-h1{
-    color:var(--font-color-primary);
+    color:var(--font-color-main-title);
     font-size: 1.5rem;
 }
 
 .main-title-h3{
-    color:var(--font-color-primary);
+    color:var(--font-color-main-title);
     font-size: 1rem;
 }
 
