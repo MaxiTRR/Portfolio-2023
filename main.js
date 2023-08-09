@@ -33,3 +33,23 @@ btnMode.addEventListener("click", ()=>{
         root.style.setProperty("--font-color-primary", "#ffff")
     }
 })
+
+//Intersection Oberserver for scroll animation
+
+const hiddenElements = document.querySelectorAll(".hidden")
+
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }else{
+            entry.target.classList.remove("show");
+        }
+    })
+},{
+    rootMargin: "-100px 0px 0px 0px",
+})
+
+hiddenElements.forEach((el)=>{
+    observer.observe(el)
+})
