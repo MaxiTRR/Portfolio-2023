@@ -126,6 +126,24 @@ section{
     padding: 0.5rem;
 }
 
+.about-me_social{
+    margin: 1rem 0 1rem 0;
+}
+
+.about-me_social-link{
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.about-me_social-link img{
+    width: 32px;
+    height: 32px;
+    transition: all 0.5s ease;
+}
+
+.about-me_social-link img:hover{
+    transform: scale(1.2);
+}
+
 .about-me_skills{
     display: flex;
     flex-direction: column;
