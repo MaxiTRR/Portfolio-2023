@@ -1,23 +1,6 @@
-//Change Dark-Light Mode with a second css file
-// // Change Dark-Light Mode
-// const changeMode = ()=>{
-//     let theme = document.getElementById("theme");
-
-//     if (theme.getAttribute("href") == "main.css"){
-//         theme.href = "dark-mode.css";
-//         //console.log("Modo noche")
-//     }else{
-//         theme.href = "main.css"
-//         //console.log("Modo dia")
-//     }
-// }
-
-
 //Change Dark-Light Mode without a another css file
-//
 //Get the :root element
 let root = document.querySelector(":root")
-//const rootStyles = getComputedStyle(root)
 let mode = true
 
 const btnMode = document.getElementById("btnMode")
@@ -35,16 +18,12 @@ btnMode.addEventListener("click", ()=>{
 })
 
 //Intersection Oberserver for scroll animation
-
 const hiddenElements = document.querySelectorAll(".hidden")
 
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
-        if(entry.isIntersecting){
-            entry.target.classList.add("show");
-        }else{
-            entry.target.classList.remove("show");
-        }
+        entry.target.classList.toggle("show", entry.isIntersecting);
+        console.log(entry)
     })
 },{
     rootMargin: "-100px 0px 0px 0px",
