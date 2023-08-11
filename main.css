@@ -180,6 +180,7 @@ a{
     flex-flow: wrap;
     justify-content: center;
     gap:2rem;
+    margin: 2rem 0 0 0;
 }
 
 .tech_icon{
@@ -191,7 +192,13 @@ a{
     font-size: 2rem;
 }
 
+.tech_icon img{
+    width: 2rem;
+    height: 2rem;
+}
+
 .tech_icon span{
+    margin: 0.5rem 0 0 0;
     font-size: 0.8rem;
 }
 
