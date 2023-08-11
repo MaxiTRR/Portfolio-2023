@@ -412,7 +412,7 @@ section{
     font-size: 1.5rem;
 }
 
-/*SOCIAL LINKS*/
+/*SOCIAL LINKS
 .social_links{
     display: flex;
     flex-direction: column;
@@ -435,7 +435,7 @@ section{
 .social_links-FrontendMentor img{
     width: 5rem;
     height: auto;
-}
+}*/
 
 /*FOOTER*/
 .foot{
