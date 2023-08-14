@@ -143,6 +143,13 @@ a{
     border-style: solid;
 }
 
+.about-me-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-me_info{
     color: var(--font-color-primary);
     padding: 0.5rem;
@@ -481,6 +488,13 @@ a{
 
     .about-me{
         flex-direction: row;
+    }
+
+    .about-me-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
     }
 
     .about-me-data{
