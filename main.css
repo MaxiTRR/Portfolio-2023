@@ -68,7 +68,6 @@ a{
 
 .btn_mode{ 
     border-style: none; 
-    padding: 0.5rem;
     color: var(--bg-color-dark);
     background-color: #ffffff00;
     font-size: 2rem;
@@ -272,6 +271,7 @@ a{
 .edu_argpro{
     display: flex;
     color: var(--font-color-primary);
+    margin:2rem 0 0 0;
 }
 
 .edu_argpro-logo{
@@ -522,5 +522,11 @@ a{
 
     .banner{
         height: 500px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1800px){
+    .btn_mode{
+        margin:0 0 0 5rem;
     }
 }
