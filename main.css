@@ -120,6 +120,20 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+.about-me-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .about-me_profile{
     width: 11rem;
     height: 11rem;
@@ -456,21 +470,40 @@ a{
 }
 
 @media only screen and (min-width: 694px) and (max-width: 1800px){
+    .bg{
+        max-width: 650px;
+        
+    }
+    
     .main-title-h1{
         font-size: 3.5rem;
+    }
+
+    .about-me{
+        flex-direction: row;
+    }
+
+    .about-me-data{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap:2rem;
+
+
+    }
+    .about-me_profile{
+        width: 15rem;
+        height: 15rem;
     }
 }
 @media only screen and (min-width: 590px) and (max-width: 1800px) {
 	.bg{
         display: flex;
-        max-width: 550px;
+        /*max-width: 550px;*/
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    p{
-        font-size: 1.5rem;
     }
 
     .banner{
