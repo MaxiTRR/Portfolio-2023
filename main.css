@@ -40,7 +40,7 @@ h2{
 
 section{
     background-color:var(--bg-color-dark);
-    padding: 1rem 0 0 0;
+    padding: 2rem 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,12 +66,29 @@ a{
     color: var(--bg-color-dark);
 }
 
+.btn_mode-container{
+    position: fixed;
+    top: 90%;
+    left: 91%;
+    bottom: 20px;
+    z-index: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.btn_up{
+    color:var(--font-color-primary);
+    font-size: 1.5rem;
+}
 .btn_mode{ 
     border-style: none; 
-    color: var(--bg-color-dark);
-    background-color: #ffffff00;
+    color: var(--font-color-primary);
     font-size: 2rem;
     transition: all 0.5s ease;
+    background: none;
 }
 
 .btn_mode:hover{
@@ -86,6 +103,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 0;
+    /*position:relative;*/
 }
 
 .main-title{
@@ -204,7 +222,7 @@ a{
     padding: 0 0 1rem 0;
     justify-content: center;
     gap:2rem;
-    margin: 2rem 1rem 0 1rem;
+    margin: 2rem 0 0 0;
     flex-direction: column;
 }
 
