@@ -169,7 +169,7 @@ a{
 
 .about-me_info{
     color: var(--font-color-primary);
-    padding: 0.5rem;
+    padding:0 0.5rem;
 }
 
 .about-me_social{
