@@ -25,6 +25,11 @@ html{
 body{
     padding: 56px 0 0 0;
     background-color: var(--bg-color-dark);
+    overflow-x:hidden;
+}
+
+.main{
+    position: relativ;
 }
 
 h1{
@@ -52,9 +57,9 @@ a{
 
 .bg{
     margin: 0 1rem 0 1rem;
-    /*background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.20) 100%);*/
-    border-radius: 25px;
     padding: 0 0 1rem 0;
+    background-color: #221d1d00;
+    
 }
 
 /* NAVBAR*/
@@ -70,7 +75,7 @@ a{
     position: fixed;
     top: 90%;
     left: 91%;
-    bottom: 20px;
+    bottom: 1rem;
     z-index: 80;
     display: flex;
     justify-content: center;
@@ -103,7 +108,6 @@ a{
     justify-content: center;
     align-items: center;
     padding: 0;
-    /*position:relative;*/
 }
 
 .main-title{
@@ -136,6 +140,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .about-me-data{
@@ -143,6 +148,19 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.about-me-data::before{
+    content: "About Me";
+    position: absolute;
+    top: 18rem;
+    left: 5rem;
+    z-index: -8;
+    color: var(--font-color-secondary);
+    font-size: 8rem;
+    opacity: 0.3;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
 }
 
 .about-me-perfil{
@@ -216,13 +234,26 @@ a{
 }
 
 /*TECHNOLOGIES*/
+.tech::before{
+    content: "Stack";
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    z-index: -8;
+    color: var(--font-color-secondary);
+    font-size: 8rem;
+    opacity: 0.3;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+}
+
 .tech_icons{
     display: flex;
     border-radius: 25px;
     padding: 0 0 1rem 0;
     justify-content: center;
     gap:2rem;
-    margin: 2rem 0 0 0;
+    margin: 2rem 1rem 0 1rem;
     flex-direction: column;
 }
 
@@ -254,6 +285,19 @@ a{
 }
 
 /* EXPERIENCE */
+.exp::before{
+    content: "Experience";
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+    z-index: -8;
+    color: var(--font-color-secondary);
+    font-size: 16rem;
+    opacity: 0.3;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+}
+
 .exp_finnegans{
     display: flex;
     color: var(--font-color-primary);
@@ -286,6 +330,19 @@ a{
 }
 
 /*EDUCATION*/
+.edu::before{
+    content: "Education";
+    position: absolute;
+    top: 12rem;
+    left: 1rem;
+    z-index: -8;
+    color: var(--font-color-secondary);
+    font-size: 6rem;
+    opacity: 0.3;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+}
+
 .edu_argpro{
     display: flex;
     color: var(--font-color-primary);
@@ -318,6 +375,19 @@ a{
 }
 
 /*PROJECTS*/
+.proj::before{
+    content: "Projects";
+    position: absolute;
+    top: 32rem;
+    left: -3rem;
+    z-index: -8;
+    color: var(--font-color-secondary);
+    font-size: 10rem;
+    opacity: 0.3;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+}
+
 .proj_alura{
     display: flex;
     color: var(--font-color-primary);
@@ -377,6 +447,19 @@ a{
 }
 
 /*CURSOS*/
+.course::before{
+    content: "Courses";
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    z-index: -8;
+    color: var(--font-color-secondary);
+    font-size: 10rem;
+    opacity: 0.3;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+}
+
 .course_el{
     display: flex;
     flex-direction: column;
@@ -466,6 +549,7 @@ a{
 
 .foot_copyright{
     color:var(--font-color-secondary);
+    margin: 0;
 }
 
 /*INTERSECTION OBSERVER*/
@@ -474,12 +558,14 @@ a{
     filter: blur(5px);
     transition: all 500ms ease-in-out;
     transform: translateX(-100%);
+    overflow:hidden;
 }
 
 .show{
     opacity: 1;
     filter: blur(0px);
     transform: translateX(0%);
+    overflow: hidden;
 }
 
 /*MEDIA QUERY*/
@@ -528,6 +614,36 @@ a{
         width: 15rem;
         height: 15rem;
     }
+
+    .exp::before{
+        top: 4rem;
+        left: 15rem;
+        font-size: 12rem;
+    }
+
+    .edu::before{
+        top: 16rem;
+        left: 8rem;
+        font-size: 7rem;
+    }
+
+    .proj::before{
+        top: 17rem;
+        left: 30rem;
+        font-size: 12rem;
+    }
+
+    .tech::before{
+        top: 4rem;
+        left: 4rem;
+        font-size: 15rem;
+    }
+
+    .course::before{
+        top: 16rem;
+        left: 50rem;
+        font-size: 8rem;
+    }
 }
 @media only screen and (min-width: 590px) and (max-width: 1800px) {
 	.bg{
@@ -543,8 +659,35 @@ a{
     }
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1800px){
-    .btn_mode{
-        margin:0 0 0 5rem;
-    }
+/*BACKGROUND IMAGES*/
+.about-me_bg-img{
+    position: absolute;
+    width: 664px;
+    height: 664px;
+    opacity: 0.2;
+    left: 15%;
+    overflow: hidden;
+    z-index: -100000;
+}
+
+.proj_bg-img{
+    position: absolute;
+    width: 464px;
+    height: 464px;
+    opacity: 0.2;
+    top:30%;
+    left: -10%;
+    overflow: visible;
+    z-index: -100000;
+}
+
+.course_bg-img{
+    position: absolute;
+    width: 364px;
+    height: 364px;
+    opacity: 0.2;
+    top:-30%;
+    left: 40%;
+    overflow: hidden;
+    z-index: -100000;
 }
