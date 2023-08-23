@@ -7,13 +7,13 @@ const btnMode = document.getElementById("btnMode")
 
 btnMode.addEventListener("click", ()=>{
     if (mode === true){
-        mode = false
         root.style.setProperty("--bg-color-dark", "#f0e1e1")
         root.style.setProperty("--font-color-primary", "w241c1c")
+        mode = false
     }else{
-        mode = true
         root.style.setProperty("--bg-color-dark", "#221D1D")
         root.style.setProperty("--font-color-primary", "#ffff")
+        mode = false
     }
 })
 

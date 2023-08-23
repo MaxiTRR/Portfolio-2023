@@ -425,7 +425,7 @@ a{
 
 .proj_repo:hover{
     background-color: var(--font-color-secondary);
-    color: var(--font-color-primary);
+    color: var(--font-color-main-title);
     transform: scale(1.1);
 }
 
