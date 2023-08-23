@@ -254,7 +254,6 @@ a{
     padding: 0 0 1rem 0;
     justify-content: center;
     gap:2rem;
-    margin: 2rem 1rem 0 1rem;
     flex-direction: column;
 }
 
@@ -347,7 +346,7 @@ a{
 .edu_argpro{
     display: flex;
     color: var(--font-color-primary);
-    margin:2rem 0 0 0;
+    margin: 0 2rem 2rem 2rem;
 }
 
 .edu_argpro-logo{
@@ -452,7 +451,7 @@ a{
     content: "Courses";
     position: absolute;
     top: 10rem;
-    left: 2rem;
+    left: 8rem;
     z-index: -8;
     color: var(--font-color-secondary);
     font-size: 6rem;
@@ -469,13 +468,20 @@ a{
 .course_card{
     display: flex;
     color: var(--font-color-primary);
-    align-items: center;
+    align-items: start;
     gap:2rem;
-    margin: 2rem 0 0 0;
+    margin: 0 0 2rem 0;
+}
+
+.course_card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .course_udemyCss-logo{
-    width: 8rem;
+    width: 6rem;
     height: auto;
     display: block;
     border-radius: 1rem;
@@ -498,7 +504,7 @@ a{
 }
 
 .course_EF-logo{
-    width: 8rem;
+    width: 6rem;
     height: auto;
     display: block;
     border-radius: 1rem;
@@ -526,7 +532,7 @@ a{
 }
 
 .course_OPBoot-logo{
-    width: 8rem;
+    width: 6rem;
     height: auto;
     display: block;
     border-radius: 1rem;
