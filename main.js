@@ -13,7 +13,7 @@ btnMode.addEventListener("click", ()=>{
     }else{
         root.style.setProperty("--bg-color-dark", "#221D1D")
         root.style.setProperty("--font-color-primary", "#ffff")
-        mode = false
+        mode = true
     }
 })
 
