@@ -392,7 +392,11 @@ a{
     align-items: center;
 }
 
-.proj_alura-title, .proj_codo-title{
+.proj_alura-title{
+    margin: 0 0 0 0;
+}
+
+.proj_codo-title{
     font-size: 1.5rem;
     margin: 2rem 0 0 0;
 }
