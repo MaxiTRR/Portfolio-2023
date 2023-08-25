@@ -14,6 +14,8 @@
     --font-color-secondary:#ED2525;
     --bg-main-title: rgba(34, 29, 29, 0.705);
     --font-color-main-title:#ffff;
+    --shadow-color:#221D1D;
+    --shadow-blur:-3px 2px 10px 0px var(--shadow-color);
 }
 
 html{
@@ -52,11 +54,14 @@ a{
     text-decoration: none;
 }
 
+img{
+    border: none;
+}
+
 .bg{
     margin: 0 1rem 0 1rem;
     padding: 0 0 1rem 0;
     background-color: #221d1d00;
-    
 }
 
 /* NAVBAR*/
@@ -171,8 +176,7 @@ a{
     height: 11rem;
     display: block;
     border-radius: 50%;
-    border-width: 2px;
-    border-style: solid;
+    box-shadow: var(--shadow-blur);
 }
 
 .about-me-desc{
@@ -184,7 +188,7 @@ a{
 
 .about-me_info{
     color: var(--font-color-primary);
-    padding:0 0.5rem;
+    padding:0 0.5rem 0 0;
 }
 
 .about-me_social{
@@ -193,6 +197,7 @@ a{
 
 .about-me_social-link{
     margin: 0 0.5rem 0 0.5rem;
+    /*box-shadow: var(--shadow-blur);*/
 }
 
 .about-me_social-link img{
@@ -211,6 +216,7 @@ a{
     justify-content: start;
     align-items: start;
     color: var(--font-color-primary);
+    padding: 0 0 0 1rem;
 }
 
 .about-me_skill{
@@ -228,6 +234,24 @@ a{
     border-radius: 25px;
     border-style: none;
     font-weight: 800;
+}
+
+.about-me-mail{
+    display: flex;
+    color: var(--font-color-primary);
+    gap: 0.5rem;
+    align-items: end;
+    margin: 1rem 0 0 0;
+}
+
+.about-me-mail img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.about-me-mail p{
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 /*TECHNOLOGIES*/
@@ -304,9 +328,9 @@ a{
     height: 5rem;
     display: block;
     border-radius: 1rem;
-    border-width: 2px;
-    border-style: solid;
     margin: 0.5rem 0.5rem 0 0.5rem;
+    position: relative;	
+    box-shadow: var(--shadow-blur);
 }
 
 .exp_finnegans-info{
@@ -350,9 +374,8 @@ a{
     height: 5rem;
     display: block;
     border-radius: 1rem;
-    border-width: 2px;
-    border-style: solid;
     margin: 0.5rem 0.5rem 0 0.5rem;
+    box-shadow: var(--shadow-blur);
 }
 .edu_argpro-info{
     display: flex;
@@ -406,9 +429,8 @@ a{
     height: 10rem;
     display: block;
     border-radius: 1rem;
-    border-width: 2px;
-    border-style: solid;
     margin: 0.5rem 0.5rem 0 0.5rem;
+    box-shadow: var(--shadow-blur);
 }
 
 .proj_app-screen{
@@ -416,9 +438,8 @@ a{
     height: auto;
     display: block;
     border-radius: 1rem;
-    border-width: 2px;
-    border-style: solid;
     margin: 0.5rem 0.5rem 0 0.5rem;
+    box-shadow: var(--shadow-blur);
 }
 
 .proj_alura-info, .proj_codo-info{
@@ -523,7 +544,7 @@ a{
     width: 6rem;
     height: auto;
     display: block;
-    border-radius: 1rem;
+    box-shadow: -5px 5px 11px -4px var(--shadow-color);
 }
 
 .course_udemyCss-title{
@@ -546,7 +567,7 @@ a{
     width: 6rem;
     height: auto;
     display: block;
-    border-radius: 1rem;
+    box-shadow: -5px 5px 11px -4px var(--shadow-color);
 }
 
 .course_EF-info, .course_OPBoot-info{
@@ -570,7 +591,7 @@ a{
     width: 6rem;
     height: auto;
     display: block;
-    border-radius: 1rem;
+    box-shadow: -5px 5px 11px -4px var(--shadow-color);
 }
 
 .course_OPBoot-title{
