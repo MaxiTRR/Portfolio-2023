@@ -9,10 +9,12 @@ btnMode.addEventListener("click", ()=>{
     if (mode === true){
         root.style.setProperty("--bg-color-dark", "#f0e1e1")
         root.style.setProperty("--font-color-primary", "w241c1c")
+        root.style.setProperty("--shadow-color", "black")
         mode = false
     }else{
         root.style.setProperty("--bg-color-dark", "#221D1D")
         root.style.setProperty("--font-color-primary", "#ffff")
+        root.style.setProperty("--shadow-color", "white")
         mode = true
     }
 })
